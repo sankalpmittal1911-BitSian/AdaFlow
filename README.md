@@ -26,4 +26,7 @@ An In-Network cache that is implemented in the data plane for intrusion detectio
 7. Run the prototype given in ``Data Plane`` folder. 
 8. Send traffic to the switch (or PCAP traces in test set using ``tcpreplay``).
 9. Obtain the output packets on another server and process the packets to obtain flow features, or directly check classification results obtain on data plane.
-10. That is it! 
+10. That is it!
+
+## For obtaining results in paper?
+Please go to ``For AEC`` folder and follow the instructions there!
