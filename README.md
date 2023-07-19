@@ -18,3 +18,12 @@ An In-Network cache that is implemented in the data plane for intrusion detectio
 
 ## Using this repository:
 1. Collect required PCAP traces in the ``Dataset`` folder.
+2. Obtain trained ML classifier from ``Remote Server/classifier.py``.
+3. Obtained pruned feature set and optimal ``bin width`` from  ``Remote Server/profiler.py``.
+4. On this obtained configuration, train Aggregated Multiphase ML Model (make sure it is the same type as a remote classifier), ``ML Models/agg_model.py``.
+5. Initialize AdaFlow Cache with this ``agg_model.pkl`` using ``Control Plane/controller.py``.
+6. Connect a Tofino Switch to two (preferably) linux servers.
+7. Run the prototype given in ``Data Plane`` folder. 
+8. Send traffic to the switch (or PCAP traces in test set using ``tcpreplay``).
+9. Obtain the output packets on another server and process the packets to obtain flow features, or directly check classification results obtain on data plane.
+10. That is it! 
