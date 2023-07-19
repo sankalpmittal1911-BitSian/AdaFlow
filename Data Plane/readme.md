@@ -6,3 +6,5 @@
 4. **Prototype 4:** Detect DoS and Heartbleed attacks.
 
 In the ``Task_specific`` folder, we have cut-down prototypes to separately detect covert channel attacks, P2P botnet detection, DDoS attacks.
+
+_Note_: To compile any prototype, run ``p4build.sh`` after putting the paths appropriately. 
