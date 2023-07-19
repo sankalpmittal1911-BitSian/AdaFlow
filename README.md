@@ -12,5 +12,9 @@ An In-Network cache that is implemented in the data plane for intrusion detectio
 
 ``Simulations``: contains simulations of AdaFlow, NetBeacon and *Flow. 
 
+## General Dependencies
+Make sure you have Tofino 2 and Tofino 1 Models/Hardware Running
+Follow: https://docs.google.com/document/d/1gyYWL0HY2SanzAoA6GGRImf9ERR1KXrG0Ngg8Zh5VfA/edit#
+
 ## Using this repository:
 1. Collect required PCAP traces in the ``Dataset`` folder.
