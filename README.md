@@ -13,7 +13,7 @@ An In-Network cache that is implemented in the data plane for intrusion detectio
 ``Simulations``: contains simulations of AdaFlow, NetBeacon and *Flow. 
 
 ## General Dependencies
-1. Make sure you have Tofino 2 and Tofino 1 Models/Hardware Running (yes, first you'd need to get a switch 😜). Follow this [tutorial](https://docs.google.com/document/d/1gyYWL0HY2SanzAoA6GGRImf9ERR1KXrG0Ngg8Zh5VfA/edit#). 
+1. Make sure you have Tofino 2 and Tofino 1 Models/Hardware (yes, actual switch 😜) Running. Follow this [tutorial](https://docs.google.com/document/d/1gyYWL0HY2SanzAoA6GGRImf9ERR1KXrG0Ngg8Zh5VfA/edit#). 
 2. Make sure you have basic python3 libraries like ``sklearn`` and ``hyperopt`` up and running. 
 
 ## Using this repository:
