@@ -11,3 +11,6 @@ An In-Network cache that is implemented in the data plane for intrusion detectio
 ``Remote Server``: contains ``profiler`` to derive configurations for various training dataset. Also contains a complex ML classifier to classify flows in the server. 
 
 ``Simulations``: contains simulations of AdaFlow, NetBeacon and *Flow. 
+
+## Using this repository:
+1. Collect required PCAP traces in the ``Dataset`` folder.
