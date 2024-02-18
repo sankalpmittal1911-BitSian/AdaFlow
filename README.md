@@ -1,6 +1,7 @@
 # AdaFlow
 An In-Network cache that is implemented in the data plane for intrusion detection of flow-based attacks. 
-![image](https://github.com/networked-systems-iith/AdaFlow/assets/104780009/cd166d69-6906-4255-b853-9e4d2ed5c4b2)
+![image](https://github.com/networked-systems-iith/AdaFlow/assets/104780009/4d890f5f-ba71-496a-922b-26163c863aa3)
+
 
 
 ## About this repository
