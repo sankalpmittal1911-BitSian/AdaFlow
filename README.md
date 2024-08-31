@@ -3,6 +3,7 @@ An In-Network cache that is implemented in the data plane for intrusion detectio
 ![image](https://github.com/networked-systems-iith/AdaFlow/assets/104780009/4d890f5f-ba71-496a-922b-26163c863aa3)
 
 
+## Published in IFIP Networking conference, 2024
 
 ## About this repository
 ``Control Plane``: contains control plane logic to initialize AdaFlow cache at the very beginning. 
@@ -36,3 +37,9 @@ Please go to ``For AEC`` folder and follow the instructions there!
 
 ## Note
 The repository is still incomplete!
+
+## Citing
+If you wish to cite our paper, please use:
+```
+S. Mittal, H. Kotha, M. Anand Krishna and P. Tammana, "AdaFlow: Efficient In-Network Traffic Classification using Programmable Switches," 2024 IFIP Networking Conference (IFIP Networking), Thessaloniki, Greece, 2024, pp. 258-266, doi: 10.23919/IFIPNetworking62109.2024.10619766. keywords: {Accuracy;Costs;Memory management;Prototypes;Security},
+```
