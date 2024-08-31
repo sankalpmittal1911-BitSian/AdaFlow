@@ -2,6 +2,7 @@
 An In-Network cache that is implemented in the data plane for intrusion detection of flow-based attacks. 
 ![image](https://github.com/networked-systems-iith/AdaFlow/assets/104780009/4d890f5f-ba71-496a-922b-26163c863aa3)
 
+For details, please consult our paper: https://ieeexplore.ieee.org/document/10619766
 
 ## Published in IFIP Networking conference, 2024
 
